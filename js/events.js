@@ -11,9 +11,9 @@ function frameIt(){
   });
 }
 function pressIt(){
-  $("input").on("keydown", function(){
+  $("input").on("keydown", function(key){
     
-    if(keydown.which === 71){
+    if(key.which === 71){
     alert("G was pushed")}
   })
 }
